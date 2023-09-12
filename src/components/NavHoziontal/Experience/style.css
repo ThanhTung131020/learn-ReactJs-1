@@ -1,0 +1,70 @@
+.navHozi li {
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-left: 50px;
+    display: block;
+
+}
+
+.content h5 {
+    float: left;
+    background-color: blue;
+    color: #fff;
+    padding: 15px;
+    border-radius: 100rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    font-weight: 800;
+    color: #3e64ff;
+
+
+}
+
+.contain-icon {
+    width: 50px;
+    height: 70px;
+}
+
+.contain-content {
+
+    margin-left: 20px;
+}
+
+.year-content {
+
+    color: blue;
+    font-weight: 800;
+}
+
+.contain-content h2 {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.contain-content span {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.contain-content p {
+    margin-right: 100px;
+    margin-top: 10px;
+    color: #999999;
+    font-size: 16px;
+}
+
+.d-flex {
+    margin-top: 30px;
+
+}

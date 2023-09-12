@@ -1,0 +1,74 @@
+.content {
+    margin-left: 50px;
+    display: block;
+
+
+}
+
+
+
+.content h1 {
+    font-weight: 800;
+    color: #3e64ff;
+
+}
+
+.card {
+    margin-top: 40px;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important
+}
+
+.card h3 {
+
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.percent {
+    display: flex;
+}
+
+.contain-card {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 25%;
+}
+
+.contain-progess {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-bar-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background:
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(#007bff 75%, rgb(241, 241, 241) 0);
+}
+
+.progress-bar-circle::before {
+    content: "75%";
+}
+
+.percent-year {
+    border-right: 1px solid #dee2e6;
+    margin-right: 10px;
+
+}
