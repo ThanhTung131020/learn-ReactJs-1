@@ -18,7 +18,7 @@ const Home = () => {
                                     onaldo</a>
                             </div>
                         </div>
-                        <div className='navBar'>
+                        <div className='navBar' >
                             <ul>
                                 <li>
                                     Home
@@ -46,11 +46,11 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='status text-center'>
-                        <span>
+                        <h5 style={{color:'blue' , fontWeight:900}}>
                             HEY I ! I AM
-                        </span>
+                        </h5>
                         <h1>Ronaldo Fredrickson</h1>
-                        <h4 style={{ fontWeight: '900' }}>I'm a <span>DEVELOPER</span></h4>
+                        <h4 style={{ fontWeight: '900'  }}>I'm a <span className='typingcss'>DEVELOPER</span></h4>
                     </div>
                 </div>
 

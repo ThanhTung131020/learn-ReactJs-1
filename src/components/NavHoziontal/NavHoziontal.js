@@ -9,7 +9,7 @@ import Awards from './Awards/Awards'
 export default function NavHoziontal() {
     return (
         <div>
-            <div style={{ display: 'flex', marginLeft: 110, marginRight: 110 }}>
+            <div style={{ display: 'flex', marginLeft: 110, marginRight: 110  }}>
                 <div className='col-md-2' >
                     <ul className='navHozi'>
                         <li>

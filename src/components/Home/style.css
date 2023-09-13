@@ -41,6 +41,7 @@
 }
 
 .navBar {
+    
     margin-top: 20px;
     margin-left: 200px;
 
@@ -51,11 +52,32 @@
     text-decoration-color: blue;
 }
 
-.status span {
-    font-weight: bold;
-    font-size: 18px;
-    color: blue;
+.typingcss{
+    color: rgb(0, 0, 255);
+    position: relative;
+   
+ 
 }
+.typingcss::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(225, 220, 233);
+    border-left: 2px solid black;
+    animation: typing 5s steps(20) infinite;
+}
+@keyframes typing {
+    40% , 60%{
+        left: calc(100%);
+       
+    }
+    100%{
+        left: 0;
+       
+    }
+}
+
 
 .status h1 {
     font-weight: 900;

@@ -13,8 +13,8 @@ export default function Contact() {
                     <h1 style={{ marginTop: 100 }}>Our Projects</h1>
                     <p style={{ color: '#999999', marginTop: 40 }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                 </div>
-                <div className='d-flex' style={{ alignItems: 'center', justifyContent: 'center', marginLeft: 100, marginRight: 100 }}>
-                    <div className='col-md-3'>
+                <div className='d-flex' style={{ alignItems: 'center', justifyContent: 'space-between', marginLeft: 50, marginRight: 50 }}>
+                    <div className='col-md-3 d-flex align-items-center justify-content-center'>
                         <Card style={{ textAlign: 'center', alignItems: 'center', height: 300 }} >
                             <div className='d-flex' style={{ width: 100, height: 100, borderRadius: 100, background: 'blue', justifyContent: 'center', alignItems: 'center' }}>
                                 <AiOutlineFire style={{ color: 'white', height: 50, width: 50 }} />
@@ -25,7 +25,7 @@ export default function Contact() {
 
 
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-md-3 d-flex align-items-center justify-content-center'>
                         <Card style={{ textAlign: 'center', alignItems: 'center', height: 300 }} >
                             <div className='d-flex' style={{ width: 100, height: 100, borderRadius: 100, background: 'blue', justifyContent: 'center', alignItems: 'center' }}>
                                 <BsTelephone style={{ color: 'white', height: 50, width: 50 }} />
@@ -35,7 +35,7 @@ export default function Contact() {
                         </Card>
 
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-md-3 d-flex align-items-center justify-content-center'>
                         <Card style={{ textAlign: 'center', alignItems: 'center', height: 300 }} >
                             <div className='d-flex' style={{ width: 100, height: 100, borderRadius: 100, background: 'blue', justifyContent: 'center', alignItems: 'center' }}>
                                 <FaRegPaperPlane style={{ color: 'white', height: 50, width: 50 }} />
@@ -45,7 +45,7 @@ export default function Contact() {
                         </Card>
 
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-md-3 d-flex align-items-center justify-content-center'>
                         <Card style={{ textAlign: 'center', alignItems: 'center', height: 300 }} >
                             <div className='d-flex' style={{ width: 100, height: 100, borderRadius: 100, background: 'blue', justifyContent: 'center', alignItems: 'center' }}>
                                 <AiOutlineFire style={{ color: 'white', height: 50, width: 50 }} />
@@ -56,12 +56,12 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-            <div className='d-flex'>
-                <div className='col-md-6' style={{ marginRight: 30 }}>
-                    <img src='https://preview.colorlib.com/theme/ronaldo/images/about.jpg' />
+            <div className='d-flex' style={{alignItems:'center' }}>
+                <div className='col-md-6'> 
+                    <img src='https://preview.colorlib.com/theme/ronaldo/images/about.jpg'  style={{width:'90%'}}/>
                 </div>
 
-                <form className='col-md-6 d-block' style={{ marginTop: 70 }}>
+                <form className='col-md-6 d-block'>
                     <input type='text' style={{ height: 50, borderRadius: 5, width: '70%', border: '0.2px solid ' }} placeholder='Your name' />
                     <input type='text' style={{ height: 50, borderRadius: 5, width: '70%', border: '0.2px solid ', marginTop: 20 }} placeholder='Your email' />
                     <input type='text' style={{ height: 50, borderRadius: 5, width: '70%', border: '0.2px solid ', marginTop: 20 }} placeholder='Subject' />

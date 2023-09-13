@@ -8,10 +8,10 @@ import { IconNamAiFillCaretRighte } from "react-icons/ai";
 import { HiOutlineMail } from 'react-icons/hi';
 export default function footer() {
     return (
-        <div style={{ backgroundColor: 'black', height: 600, width: '100%' }}>
+        <div style={{ backgroundColor: 'black', height: 400, width: '100%'  }}>
             <div>
-                <div className='d-flex' style={{ color: 'white' }}>
-                    <div className='col-md-3' style={{ marginLeft: 100, marginRight: 30, marginTop: 50, marginBottom: 100 }}>
+                <div className='d-flex' style={{ color: 'white' , marginLeft:20 }}>
+                    <div className='col-md-3' style={{ marginTop: 50 }}>
                         <h3>About</h3>
                         <p style={{ width: '50%' }}>
                             Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
@@ -28,9 +28,9 @@ export default function footer() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3' style={{ marginTop: 50, }}>
+                    <div className='col-md-3' style={{ marginTop: 50}}>
                         <h3>Links</h3>
-                        <ul>
+                        <ul style={{listStyle:'none'}}>
                             <li>
                                 Home
                             </li>
@@ -51,7 +51,7 @@ export default function footer() {
                     </div>
                     <div className='col-md-3' style={{ marginTop: 50, }}>
                         <h3>Sercives</h3>
-                        <ul>
+                        <ul style={{listStyle:'none'}}>
                             <li>
                                 <span class="icon-long-arrow-right mr-2"></span>Web Design
                             </li>

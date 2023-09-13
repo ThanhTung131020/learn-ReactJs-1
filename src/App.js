@@ -18,7 +18,7 @@ function App() {
       <div>
         <About />
       </div>
-      <div>
+      <div style={{marginTop:100}}>
         <NavHoziontal />
       </div>
 

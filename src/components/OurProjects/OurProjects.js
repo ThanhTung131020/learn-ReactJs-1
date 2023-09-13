@@ -38,7 +38,7 @@ export default function OurProjects() {
                 </div>
 
             </div>
-            <div className='d-flex' style={{ marginTop: 100 }}>
+            <div className='d-flex' style={{ marginTop: 100 , justifyContent:'space-evenly', paddingLeft:50 }}>
                 <div className='col-md-3'>
                     <Card style={{ height: 100, display: 'flex', justifyContent: 'center', alignItems: 'center', width: '90%' }}>
                         <div className='d-block our-project-card' >

@@ -26,3 +26,8 @@ h1 {
     text-align: center;
 
 }
+.card-services{
+    padding-left: 70px;
+    padding-right: 70px;
+    border: none;
+}
