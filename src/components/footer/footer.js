@@ -8,7 +8,7 @@ import { IconNamAiFillCaretRighte } from "react-icons/ai";
 import { HiOutlineMail } from 'react-icons/hi';
 export default function footer() {
     return (
-        <div style={{ backgroundColor: 'black', height: 600 }}>
+        <div style={{ backgroundColor: 'black', height: 600, width: '100%' }}>
             <div>
                 <div className='d-flex' style={{ color: 'white' }}>
                     <div className='col-md-3' style={{ marginLeft: 100, marginRight: 30, marginTop: 50, marginBottom: 100 }}>

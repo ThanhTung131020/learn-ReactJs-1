@@ -14,24 +14,24 @@ export default function OurProjects() {
                 </div>
                 <div className='card-ourprojects'>
                     <div className='d-flex ' >
-                        <div class="col-md-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
+                        <div class="col-md-4 col-sm-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
 
                         </div>
-                        <div class="col-md-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
+                        <div class="col-md-4 col-sm-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
 
                         </div>
-                        <div class="col-md-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
+                        <div class="col-md-4 col-sm-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
 
                         </div>
                     </div>
-                    <div className='d-flex ' >
-                        <div class="col-md-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
+                    <div className='d-flex ' style={{ marginTop: 0 }}>
+                        <div class="col-md-4 col-sm-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
 
                         </div>
-                        <div class="col-md-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
+                        <div class="col-md-4 col-sm-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
 
                         </div>
-                        <div class="col-md-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
+                        <div class="col-md-4 col-sm-4" style={{ backgroundImage: `url(${Background_1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 300 }} >
 
                         </div>
                     </div>

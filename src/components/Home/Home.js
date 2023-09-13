@@ -6,9 +6,16 @@ const Home = () => {
             <div>
                 <div style={{ backgroundColor: '#e1dce9', height: 500 }}>
                     <div className='container'  >
-                        <div className='branch' >
-                            <div>
-                                <a><span >R</span>onaldo</a>
+                        <div className='branch'  >
+                            <div >
+                                <a className='d-flex' style={{ textDecoration: 'none', color: 'black' }}>
+                                    <div style={{
+                                        height: 40, width: 40, backgroundColor: 'blue', borderRadius: 100, textAlign: 'center'
+                                    }}>
+                                        <span >R</span>
+                                    </div>
+
+                                    onaldo</a>
                             </div>
                         </div>
                         <div className='navBar'>
