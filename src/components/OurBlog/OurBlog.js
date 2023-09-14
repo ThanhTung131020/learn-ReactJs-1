@@ -74,7 +74,7 @@ export default function OurBlog() {
                 </div>
             </div>
             <div style={{ backgroundImage: `url("https://preview.colorlib.com/theme/ronaldo/images/bg_1.jpg")`, height: 300, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
-                <div style={{ textAlign: 'center' }}>
+                <div style={{ textAlign: 'center'  , alignItems:'center'}}>
                     <div className='d-flex' style={{ alignItems: 'center', justifyContent: 'center' }}>
                         <span style={{ color: 'white', fontSize: 40, fontWeight: 900, marginRight: 10 }}>I'm</span>
                         <span style={{ color: ' #a0f669', fontSize: 40, fontWeight: 900 }}>Available</span>

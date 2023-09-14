@@ -10,7 +10,7 @@ export default function footer() {
     return (
         <div style={{ backgroundColor: 'black', height: 400, width: '100%'  }}>
             <div>
-                <div className='d-flex' style={{ color: 'white' , marginLeft:20 }}>
+                <div className='d-flex' style={{ color: 'white' , marginLeft:20,marginTop:0   }}>
                     <div className='col-md-3' style={{ marginTop: 50 }}>
                         <h3>About</h3>
                         <p style={{ width: '50%' }}>

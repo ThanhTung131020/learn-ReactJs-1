@@ -19,7 +19,7 @@ export default function Services() {
             <div >
                 <div className='d-flex card-services' >
                     <div className='col-md-4 ' >
-                        <Card style={{ width: '93%', height: 300 }} >
+                        <Card  className='card-services' style={{ width: '93%', height: 300 }} >
                             <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
                             <h3>WEB DESIGN</h3>
                             <hr />
@@ -27,7 +27,7 @@ export default function Services() {
                         </Card>
                     </div>
                     <div className='col-md-4 ' >
-                        <Card style={{ width: '93%', height: 300 }} >
+                        <Card className='card-services' style={{ width: '93%', height: 300 }} >
                             <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
                             <h3>PHOTOGRAPHY</h3>
                             <hr />
@@ -35,7 +35,7 @@ export default function Services() {
                         </Card>
                     </div>
                     <div className='col-md-4 ' >
-                        <Card style={{ width: '100%', height: 300 }} >
+                        <Card className='card-services' style={{ width: '100%', height: 300 }} >
                             <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
                             <h3>WEB DEVELOPER</h3>
                             <hr />
@@ -45,7 +45,7 @@ export default function Services() {
                 </div>
                 <div className='d-flex card-services' >
                     <div className='col-md-4 ' >
-                        <Card style={{ width: '93%', height: 300 }} >
+                        <Card className='card-services' style={{ width: '93%', height: 300 }} >
                             <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
                             <h3>APP DEVELOPER</h3>
                             <hr />
@@ -53,7 +53,7 @@ export default function Services() {
                         </Card>
                     </div>
                     <div className='col-md-4 ' >
-                        <Card style={{ width: '93%', height: 300 }} >
+                        <Card className='card-services' style={{ width: '93%', height: 300 }} >
                             <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
                             <h3>BRANDING</h3>
                             <hr />
@@ -61,7 +61,7 @@ export default function Services() {
                         </Card>
                     </div>
                     <div className='col-md-4 ' >
-                        <Card style={{ width: '100%', height: 300 }} >
+                        <Card className='card-services' style={{ width: '100%', height: 300 }} >
                             <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
                             <h3>PRODUCT STRATEGY</h3>
                             <hr />
