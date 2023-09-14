@@ -1,9 +1,16 @@
 .navHozi {
-    list-style-type: none;
-    font-weight: 800;
-
+  list-style-type: none;
+  font-weight: 800;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
 }
-
-.navHozi:hover {
-    color: blue;
+.navHozi .current {
+  color: #3e64ff;
+  margin-left: 20px;
+  position: relative;
+}
+.navHozi li a {
+  text-decoration: none;
+  color: black;
 }

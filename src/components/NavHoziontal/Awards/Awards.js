@@ -5,7 +5,7 @@ import { TfiGift } from 'react-icons/tfi'
 
 export default function Awards() {
     return (
-        <div>
+        <div id="page4">
 
             <div className='d-block' style={{ marginTop: 100 }}>
                 <div className='col-md-9 content' >

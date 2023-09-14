@@ -3,9 +3,9 @@ import './style.css'
 import { TfiGift } from 'react-icons/tfi'
 
 
-export default function Education() {
+export default function Experience() {
     return (
-        <div>
+        <div id="page2">
 
             <div className='d-block' style={{ marginTop: 100 }}>
                 <div className='col-md-9 content' >

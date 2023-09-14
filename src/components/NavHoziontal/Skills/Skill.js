@@ -5,9 +5,9 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 
 
-export default function Awards() {
+export default function Skill() {
     return (
-        <div>
+        <div id="page3">
 
             <div className='' style={{ marginTop: 100 }}>
                 <div className='col-md-9 content' >

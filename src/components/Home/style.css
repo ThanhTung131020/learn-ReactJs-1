@@ -1,86 +1,116 @@
 .container {
-    display: flex;
+  display: flex;
 
-    height: 100px;
-
+  height: 100px;
 }
 
 .branch {
-
-
-    display: 'flex';
-    margin-left: 80px;
-    margin-right: 80px;
-
+  display: "flex";
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .branch span {
-
-
-    color: #e1dce9;
-    font-weight: 900;
-    font-size: 26px;
+  color: #e1dce9;
+  font-weight: 900;
+  font-size: 26px;
 }
 
-
 .branch a {
-    font-size: 26px;
-    font-weight: 900;
+  font-size: 26px;
+  font-weight: 900;
 }
 
 .navBar ul {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navBar li {
-    list-style: none;
-    font-size: 17px;
-    font-weight: 400;
-    margin-left: 50px;
+  list-style: none;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 50px;
 }
 
 .navBar {
-    
-    margin-top: 20px;
-    margin-left: 200px;
-
+  margin-top: 20px;
+  margin-left: 200px;
 }
 
 .navBar li:hover {
-    text-decoration: solid 2px underline;
-    text-decoration-color: blue;
+  text-decoration: solid 2px underline;
+  text-decoration-color: blue;
 }
 
-.typingcss{
-    color: rgb(0, 0, 255);
-    position: relative;
-   
- 
+.typingcss {
+  color: rgb(0, 0, 255);
+  position: relative;
 }
-.typingcss::after{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(225, 220, 233);
-    border-left: 2px solid black;
-    animation: typing 5s steps(20) infinite;
+.typingcss::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-left: 2px solid black;
+  animation: typing 5s steps(20) infinite;
 }
 @keyframes typing {
-    40% , 60%{
-        left: calc(100%);
-       
-    }
-    100%{
-        left: 0;
-       
-    }
+  40%,
+  60% {
+    left: calc(100%);
+  }
+  100% {
+    left: 0;
+  }
 }
 
-
 .status h1 {
-    font-weight: 900;
-    font-size: 55px;
+  font-weight: 900;
+  font-size: 55px;
+}
 
+.home-warpper {
+  position: relative;
+  > * {
+    position: relative;
+    z-index: 10;
+  }
+  .backdrop {
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: rgb(194, 194, 194);
+    position: absolute;
+  }
+  .button-center {
+    z-index: 9;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    background: rgb(194, 194, 194);
+    position: absolute;
+    left: 47.2%;
+    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.down {
+  text-align: center;
+  transform: rotate(-45deg);
+  font-size: 30px;
+  color: blue;
+
+  position: absolute;
+  animation: down 5s steps(5) infinite;
+}
+@keyframes down {
+  100% {
+    transform: rotate(-45deg) translateY(50%);
+  }
 }

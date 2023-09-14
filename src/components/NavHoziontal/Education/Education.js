@@ -5,7 +5,7 @@ import { TfiGift } from 'react-icons/tfi'
 
 export default function Education() {
     return (
-        <div>
+        <div id="page1">
 
             <div className='d-block'>
                 <div className='col-md-9 content' >
