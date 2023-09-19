@@ -47,7 +47,7 @@
   color: rgb(0, 0, 255);
   position: relative;
 }
-.typingcss::after {
+/* .typingcss::after {
   content: "";
   position: absolute;
   height: 100%;
@@ -64,7 +64,7 @@
   100% {
     left: 0;
   }
-}
+} */
 
 .status h1 {
   font-weight: 900;
@@ -83,7 +83,7 @@
     top: 0;
     width: 50%;
     height: 100%;
-    background: rgb(194, 194, 194);
+    background: #e6eff8;
     position: absolute;
   }
   .button-center {
@@ -91,7 +91,7 @@
     width: 80px;
     height: 80px;
     transform: rotate(45deg);
-    background: rgb(194, 194, 194);
+    background: #e6eff8;
     position: absolute;
     left: 47.2%;
     bottom: 30%;
