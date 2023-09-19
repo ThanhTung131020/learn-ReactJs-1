@@ -8,7 +8,7 @@ const Home = () => {
   });
   return (
     <>
-      <div>
+      <div className="col-xs-6 text-center">
         <div
           style={{ backgroundColor: "#f8f9fa", height: 500 }}
           className="home-warpper"
@@ -39,7 +39,7 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div className="navBar">
+            {/* <div className="navBar">
               <ul>
                 <li>Home</li>
                 <li>About</li>
@@ -49,21 +49,81 @@ const Home = () => {
                 <li>My Blog</li>
                 <li>Contact</li>
               </ul>
-            </div>
+            </div> */}
+            <nav class="navbar navbar-expand-lg navbar-light ">
+              <div class="container-fluid">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarText"
+                  aria-controls="navbarText"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        Home
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        About
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        Resume
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        Services
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        Projects
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        My Blog
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        Contact
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
           </div>
-          <div className="status text-center">
-            <h5 style={{ color: "blue", fontWeight: 900 }}>HEY I ! I AM</h5>
-            <h1>Ronaldo Fredrickson</h1>
-            <h4 style={{ fontWeight: "900" }}>
-              I'm a{" "}
-              <span className="typingcss">
-                <Typewriter
-                  words={["Developer", "Designer", "Photograper"]}
-                  loop={false}
-                />
-              </span>
-              <Cursor />
-            </h4>
+          <div className="text-center col-xs-12">
+            <div className="">
+              <h5 style={{ color: "blue", fontWeight: 900 }}>HEY I ! I AM</h5>
+            </div>
+            <div className="text-center">
+              <h1>Ronaldo Fredrickson</h1>
+            </div>
+            <div>
+              <h4 style={{ fontWeight: "900" }}>
+                I'm a{" "}
+                <span className="typingcss">
+                  <Typewriter
+                    words={["Developer", "Designer", "Photograper"]}
+                    loop={false}
+                  />
+                </span>
+                <Cursor />
+              </h4>
+            </div>
           </div>
         </div>
       </div>

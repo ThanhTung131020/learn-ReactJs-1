@@ -7,8 +7,6 @@ img {
 .about h1 {
   font-weight: 900;
 }
-.image {
-}
 
 .dowloadCV {
   background-color: blue;
@@ -27,4 +25,8 @@ img {
 }
 .about {
   padding-left: 50px;
+}
+.about-name {
+  font-weight: 900;
+  padding-right: 50px;
 }

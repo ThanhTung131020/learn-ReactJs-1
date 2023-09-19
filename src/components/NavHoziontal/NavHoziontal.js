@@ -16,10 +16,10 @@ export default function NavHoziontal() {
   const isInViewport4 = useIsInViewport(ref4);
 
   return (
-    <div>
-      <div style={{ display: "flex", marginLeft: 110, marginRight: 110 }}>
+    <div className="d-xs-block">
+      <div style={{ marginLeft: 110, marginRight: 110 }} className="row">
         <div className="col-md-2">
-          <ul className="navHozi">
+          <ul className="navHozi  ">
             <li>
               <a href="#page1" className={`${isInViewport1 ? "current" : ""}`}>
                 {" "}

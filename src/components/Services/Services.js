@@ -1,76 +1,120 @@
-import React from 'react'
-import './style.css'
-import Card from 'react-bootstrap/Card';
-import { HiOutlineLightBulb } from 'react-icons/hi2'
-import { hover } from '@testing-library/user-event/dist/hover';
-import Background_1 from '../../asset/icon/work-1.jpg'
+import React from "react";
+import "./style.css";
+import Card from "react-bootstrap/Card";
+import { HiOutlineLightBulb } from "react-icons/hi2";
+import { hover } from "@testing-library/user-event/dist/hover";
+import Background_1 from "../../asset/icon/work-1.jpg";
 export default function Services() {
+  return (
+    <div className="container-title">
+      <div>
+        <div className="title col-md-12">
+          <h1>Services</h1>
+          <p style={{ color: "#999999", marginTop: 40 }}>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia
+          </p>
+        </div>
+      </div>
 
-    return (
-        <div className='d-block container-title'>
-            <div>
-                <div className='title'>
-                    <h1>Services</h1>
-                    <p style={{ color: '#999999', marginTop: 40 }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                </div>
-
+      <div>
+        <div
+          className="row card-services-container"
+          style={{
+            justifyContent: "space-between",
+            marginLeft: 50,
+          }}
+        >
+          <div className="col-md-4">
+            <div className="card-services">
+              <HiOutlineLightBulb
+                style={{ width: 60, height: 60, marginTop: 30 }}
+              />
+              <h3>WEB DESIGN</h3>
+              <hr style={{ width: 30, marginLeft: "48%" }} />
+              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
             </div>
-
-            <div >
-                <div className='d-flex card-services' >
-                    <div className='col-md-4 ' >
-                        <Card  className='card-services' style={{ width: '93%', height: 300 }} >
-                            <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
-                            <h3>WEB DESIGN</h3>
-                            <hr />
-                            <p style={{ width: '80%' }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        </Card>
-                    </div>
-                    <div className='col-md-4 ' >
-                        <Card className='card-services' style={{ width: '93%', height: 300 }} >
-                            <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
-                            <h3>PHOTOGRAPHY</h3>
-                            <hr />
-                            <p style={{ width: '80%' }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        </Card>
-                    </div>
-                    <div className='col-md-4 ' >
-                        <Card className='card-services' style={{ width: '100%', height: 300 }} >
-                            <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
-                            <h3>WEB DEVELOPER</h3>
-                            <hr />
-                            <p style={{ width: '80%' }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        </Card>
-                    </div>
-                </div>
-                <div className='d-flex card-services' >
-                    <div className='col-md-4 ' >
-                        <Card className='card-services' style={{ width: '93%', height: 300 }} >
-                            <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
-                            <h3>APP DEVELOPER</h3>
-                            <hr />
-                            <p style={{ width: '80%' }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        </Card>
-                    </div>
-                    <div className='col-md-4 ' >
-                        <Card className='card-services' style={{ width: '93%', height: 300 }} >
-                            <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
-                            <h3>BRANDING</h3>
-                            <hr />
-                            <p style={{ width: '80%' }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        </Card>
-                    </div>
-                    <div className='col-md-4 ' >
-                        <Card className='card-services' style={{ width: '100%', height: 300 }} >
-                            <HiOutlineLightBulb style={{ width: 60, height: 60 }} />
-                            <h3>PRODUCT STRATEGY</h3>
-                            <hr />
-                            <p style={{ width: '80%' }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        </Card>
-                    </div>
-                </div>
+          </div>
+          <div className="col-md-4 ">
+            <div className="card-services">
+              <HiOutlineLightBulb
+                style={{ width: 60, height: 60, marginTop: 30 }}
+              />
+              <h3>WEB DESIGN</h3>
+              <hr style={{ width: 30, marginLeft: "48%" }} />
+              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
             </div>
-
-        </div >
-    )
+          </div>
+          <div className="col-md-4 ">
+            <div className="card-services">
+              <HiOutlineLightBulb
+                style={{ width: 60, height: 60, marginTop: 30 }}
+              />
+              <h3>WEB DESIGN</h3>
+              <hr style={{ width: 30, marginLeft: "48%" }} />
+              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="row card-services-container"
+          style={{
+            justifyContent: "space-between",
+            marginLeft: 50,
+          }}
+        >
+          <div className="col-md-4 ">
+            <div className="card-services">
+              <HiOutlineLightBulb
+                style={{ width: 60, height: 60, marginTop: 30 }}
+              />
+              <h3>WEB DESIGN</h3>
+              <hr style={{ width: 30, marginLeft: "48%" }} />
+              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-4 ">
+            <div className="card-services">
+              <HiOutlineLightBulb
+                style={{ width: 60, height: 60, marginTop: 30 }}
+              />
+              <h3>WEB DESIGN</h3>
+              <hr style={{ width: 30, marginLeft: "48%" }} />
+              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card-services">
+              <HiOutlineLightBulb
+                style={{ width: 60, height: 60, marginTop: 30 }}
+              />
+              <h3>WEB DESIGN</h3>
+              <hr style={{ width: 30, marginLeft: "48%" }} />
+              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }

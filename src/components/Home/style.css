@@ -21,31 +21,11 @@
   font-weight: 900;
 }
 
-.navBar ul {
-  display: flex;
-  align-items: center;
-}
-
-.navBar li {
-  list-style: none;
-  font-size: 17px;
-  font-weight: 400;
-  margin-left: 50px;
-}
-
-.navBar {
-  margin-top: 20px;
-  margin-left: 200px;
-}
-
-.navBar li:hover {
-  text-decoration: solid 2px underline;
-  text-decoration-color: blue;
-}
-
 .typingcss {
   color: rgb(0, 0, 255);
-  position: relative;
+}
+.nav-item:hover {
+  text-decoration-color: blue;
 }
 /* .typingcss::after {
   content: "";
@@ -113,4 +93,7 @@
   100% {
     transform: rotate(-45deg) translateY(50%);
   }
+}
+.navbar {
+  float: right;
 }

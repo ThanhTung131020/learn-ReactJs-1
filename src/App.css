@@ -1,10 +1,9 @@
 .App {
-
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40min;
   pointer-events: none;
 }
 
@@ -41,8 +40,5 @@
 
 body {
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: arial, sans-serif;
 }
