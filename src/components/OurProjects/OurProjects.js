@@ -16,7 +16,7 @@ export default function OurProjects() {
           </p>
         </div>
         <div className="card-ourprojects">
-          <div className="d-flex ">
+          <div className="row ">
             <div
               class="col-md-4 col-sm-4"
               style={{
@@ -45,7 +45,7 @@ export default function OurProjects() {
               }}
             ></div>
           </div>
-          <div className="d-flex " style={{ marginTop: 0 }}>
+          <div className="row " style={{ marginTop: 0 }}>
             <div
               class="col-md-4 col-sm-4"
               style={{

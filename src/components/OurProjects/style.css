@@ -2,8 +2,6 @@
   font-weight: bold;
   color: #3e64ff;
 }
-.out-card {
-}
 .contain-out-card {
   margin-top: 100px;
   margin-left: 20px;
@@ -11,12 +9,13 @@
 }
 .inside-card {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-  text-align: center;
   height: 120px;
-  align-content: center;
+  margin-top: 20px;
+  text-align: center;
 }
 .inside-card h5 {
   font-size: 30px;
   color: blue;
   font-weight: 900;
+  padding-top: 25px;
 }

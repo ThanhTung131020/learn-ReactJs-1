@@ -1,0 +1,15 @@
+.contact-card {
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  margin-top: 20px;
+  width: 200px;
+}
+.img-contact {
+  width: 100%;
+
+  padding-top: 20px;
+}
+.form-contact {
+  padding-top: 20px;
+}

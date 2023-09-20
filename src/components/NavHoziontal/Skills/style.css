@@ -13,6 +13,7 @@
   width: auto;
 
   justify-content: center;
+  margin-right: 20px;
   align-items: center;
   height: 100%;
   padding-bottom: 20px;
@@ -29,19 +30,15 @@
 }
 
 .contain-card {
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-.progress-bar {
-  width: 25%;
-}
-
 .contain-progess {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -64,4 +61,8 @@
 .percent-year {
   border-right: 1px solid #dee2e6;
   margin-right: 10px;
+}
+.progress {
+  height: 8px;
+  width: 90%;
 }

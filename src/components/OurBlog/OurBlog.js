@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFillChatLeftTextFill } from "react-icons/bs";
-
+import "./style.css";
 export default function OurBlog() {
   return (
     <div>
@@ -14,7 +14,7 @@ export default function OurBlog() {
         </div>
       </div>
       <div
-        className="d-flex"
+        className="row"
         style={{
           alignItems: "center",
           justifyContent: "space-between",
@@ -22,7 +22,7 @@ export default function OurBlog() {
           marginRight: 120,
         }}
       >
-        <div className="col-md-4" style={{ width: 400 }}>
+        <div className="col-xs-4" style={{ width: 400 }}>
           <div className="row">
             <img
               src="https://preview.colorlib.com/theme/ronaldo/images/image_1.jpg"
@@ -51,11 +51,11 @@ export default function OurBlog() {
             </p>
           </div>
         </div>
-        <div className="col-md-4" style={{ width: 400 }}>
+        <div className="col-xs-4" style={{ width: 400 }}>
           <div className="row">
             <img
               src="https://preview.colorlib.com/theme/ronaldo/images/image_2.jpg"
-              style={{ height: 300 }}
+              style={{ height: 300, width: "auto" }}
             />
             <a style={{ fontSize: 20 }}>
               Why Lead Generation is Key for Business Growth
@@ -80,7 +80,7 @@ export default function OurBlog() {
             </p>
           </div>
         </div>
-        <div className="col-md-4" style={{ width: 400 }}>
+        <div className="col-xs-4" style={{ width: 400 }}>
           <div className="row">
             <img
               src="https://preview.colorlib.com/theme/ronaldo/images/image_3.jpg"
@@ -103,6 +103,7 @@ export default function OurBlog() {
               </span>
               3
             </div>
+
             <p style={{ color: "#999999", marginTop: 20 }}>
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia.
@@ -111,74 +112,37 @@ export default function OurBlog() {
         </div>
       </div>
       <div
+        className="col-xs-12 outblog-content d-flex"
         style={{
           backgroundImage: `url("https://preview.colorlib.com/theme/ronaldo/images/bg_1.jpg")`,
           height: 300,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          alignContent: "center",
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "white",
         }}
       >
-        <div
-          style={{
-            paddingTop: 40,
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <div
-            className="d-flex"
-            style={{
-              alignItems: "center",
-              justifyContent: "center",
-              justifyItems: "center",
-            }}
+        <div className="" justify-content-center>
+          <h1
+            className="outBlog-content text-center"
+            style={{ color: "white", marginTop: 20 }}
           >
-            <span
-              style={{
-                color: "white",
-                fontSize: 40,
-                fontWeight: 900,
-                marginRight: 10,
-              }}
-            >
-              I'm
-            </span>
-            <span style={{ color: " #a0f669", fontSize: 40, fontWeight: 900 }}>
+            I'm &nbsp;
+            <span style={{ color: "green" }} className="ourBlog-span">
               Available
-            </span>
-            <span
-              style={{
-                color: "white",
-                fontSize: 40,
-                fontWeight: 900,
-                marginRight: 10,
-              }}
-            >
-              for freelancing
-            </span>
-          </div>
-          <p style={{ color: "white", fontSize: 20, textAlign: "center" }}>
+            </span>{" "}
+            for freelancing
+          </h1>
+          <h5 style={{ color: "white", width: "auto" }} className="text-center">
             A small river named Duden flows by their place and supplies it with
-            the necessary regelialia
-          </p>
-          <div
-            className="d-flex"
-            style={{
-              justifyContent: "center",
-              alignItems: "center",
-              backgroundColor: "#3e64ff",
-              width: 150,
-              height: 50,
-              borderRadius: 20,
-              marginLeft: "auto",
-              marginRight: "auto",
-            }}
-          >
-            <a style={{ fontSize: 12, fontWeight: "bold", color: "white" }}>
-              HERE ME
-            </a>
+            the <br /> necessary regelialia.
+          </h5>
+          <div className="text-center ">
+            <button className="buttonoutblog" style={{}}>
+              HIRE ME
+            </button>
           </div>
         </div>
       </div>

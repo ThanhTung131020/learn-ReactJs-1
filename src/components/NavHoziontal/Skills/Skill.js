@@ -41,8 +41,8 @@ export default function Skill() {
                   style={{ visibility: "hidden", height: 0, width: 0 }}
                 ></progress>
               </div>
-              <div className="d-flex">
-                <div className="col-md-6 percent-year">
+              <div className="d-flex col-md-6">
+                <div className=" percent-year">
                   <h2>28%</h2>
                   <p style={{ fontSize: 12 }}> last week</p>
                 </div>
@@ -63,8 +63,8 @@ export default function Skill() {
                   style={{ visibility: "hidden", height: 0, width: 0 }}
                 ></progress>
               </div>
-              <div className="d-flex">
-                <div className="col-md-6 percent-year">
+              <div className="d-flex col-md-6">
+                <div className=" percent-year">
                   <h2>28%</h2>
                   <p style={{ fontSize: 12 }}> last week</p>
                 </div>
@@ -76,10 +76,10 @@ export default function Skill() {
               </div>
             </div>
           </div>
-          <div className="d-flex contain-progess">
-            <div className="d-block col-md-5">
+          <div className="row contain-progess">
+            <div className="col-sm-6">
               <p style={{ marginTop: 20 }}>photoshop</p>
-              <div class="progress" style={{ height: 8 }}>
+              <div class="progress">
                 <div
                   class="progress-bar"
                   role="progressbar"
@@ -90,7 +90,7 @@ export default function Skill() {
                 ></div>
               </div>
               <p style={{ marginTop: 20 }}>HTML 5</p>
-              <div class="progress" style={{ height: 8 }}>
+              <div class="progress">
                 <div
                   class="progress-bar"
                   role="progressbar"
@@ -101,7 +101,7 @@ export default function Skill() {
                 ></div>
               </div>
               <p style={{ marginTop: 20 }}>WordPress</p>
-              <div class="progress" style={{ height: 8 }}>
+              <div class="progress">
                 <div
                   class="progress-bar"
                   role="progressbar"
@@ -112,9 +112,9 @@ export default function Skill() {
                 ></div>
               </div>
             </div>
-            <div className="d-block col-md-5">
+            <div className="col-sm-6">
               <p style={{ marginTop: 20 }}>JQuyery</p>
-              <div class="progress" style={{ height: 8 }}>
+              <div class="progress">
                 <div
                   class="progress-bar"
                   role="progressbar"
@@ -125,7 +125,7 @@ export default function Skill() {
                 ></div>
               </div>
               <p style={{ marginTop: 20 }}>CSS3</p>
-              <div class="progress" style={{ height: 8 }}>
+              <div class="progress">
                 <div
                   class="progress-bar"
                   role="progressbar"
@@ -136,7 +136,7 @@ export default function Skill() {
                 ></div>
               </div>
               <p style={{ marginTop: 20 }}>SEO</p>
-              <div class="progress" style={{ height: 8 }}>
+              <div class="progress">
                 <div
                   class="progress-bar"
                   role="progressbar"

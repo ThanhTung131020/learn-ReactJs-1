@@ -17,121 +17,117 @@ export default function Contact() {
           </p>
         </div>
         <div
-          className="d-flex"
+          className="row col-md-12"
           style={{
+            paddingLeft: 100,
+            paddingRight: 100,
             alignItems: "center",
-            justifyContent: "space-between",
-            marginLeft: 50,
-            marginRight: 50,
+            justifyContent: "space-evenly",
           }}
         >
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
-            <Card
-              style={{ textAlign: "center", alignItems: "center", height: 300 }}
+          <div className="contact-card col-md-3 ">
+            <div
+              className="center"
+              style={{
+                width: 100,
+                height: 100,
+                borderRadius: 100,
+                background: "blue",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                margin: "auto",
+              }}
             >
-              <div
-                className="d-flex"
-                style={{
-                  width: 100,
-                  height: 100,
-                  borderRadius: 100,
-                  background: "blue",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <AiOutlineFire
-                  style={{ color: "white", height: 50, width: 50 }}
-                />
-              </div>
-              <h3 style={{ marginTop: 20 }}>address</h3>
-              <p style={{ color: "#999999", marginTop: 20 }}>
-                198 West 21th Street, Suite 721 New York NY 10016
-              </p>
-            </Card>
+              <AiOutlineFire
+                style={{ color: "white", height: 50, width: 50 }}
+              />
+            </div>
+            <h3 style={{ marginTop: 20 }}>address</h3>
+            <p style={{ color: "#999999", marginTop: 20 }}>
+              198 West 21th Street, Suite 721 New York NY 10016
+            </p>
           </div>
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
-            <Card
-              style={{ textAlign: "center", alignItems: "center", height: 300 }}
+          <div className="contact-card col-md-3 ">
+            <div
+              className="center"
+              style={{
+                width: 100,
+                height: 100,
+                borderRadius: 100,
+                background: "blue",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                margin: "auto",
+              }}
             >
-              <div
-                className="d-flex"
-                style={{
-                  width: 100,
-                  height: 100,
-                  borderRadius: 100,
-                  background: "blue",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <BsTelephone
-                  style={{ color: "white", height: 50, width: 50 }}
-                />
-              </div>
-              <h3 style={{ marginTop: 20 }}>Contact Number</h3>
-              <p style={{ color: "#3e64ff", marginTop: 20 }}>+ 1235 2355 98</p>
-            </Card>
+              <AiOutlineFire
+                style={{ color: "white", height: 50, width: 50 }}
+              />
+            </div>
+            <h3 style={{ marginTop: 20 }}>address</h3>
+            <p style={{ color: "#999999", marginTop: 20 }}>
+              198 West 21th Street, Suite 721 New York NY 10016
+            </p>
           </div>
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
-            <Card
-              style={{ textAlign: "center", alignItems: "center", height: 300 }}
+          <div className="contact-card col-md-3 ">
+            <div
+              className="center"
+              style={{
+                width: 100,
+                height: 100,
+                borderRadius: 100,
+                background: "blue",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                margin: "auto",
+              }}
             >
-              <div
-                className="d-flex"
-                style={{
-                  width: 100,
-                  height: 100,
-                  borderRadius: 100,
-                  background: "blue",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <FaRegPaperPlane
-                  style={{ color: "white", height: 50, width: 50 }}
-                />
-              </div>
-              <h3 style={{ marginTop: 20 }}>Email address</h3>
-              <p style={{ color: "#3e64ff", marginTop: 20 }}>
-                info@yoursite.com
-              </p>
-            </Card>
+              <AiOutlineFire
+                style={{ color: "white", height: 50, width: 50 }}
+              />
+            </div>
+            <h3 style={{ marginTop: 20 }}>address</h3>
+            <p style={{ color: "#999999", marginTop: 20 }}>
+              198 West 21th Street, Suite 721 New York NY 10016
+            </p>
           </div>
-          <div className="col-md-3 d-flex align-items-center justify-content-center">
-            <Card
-              style={{ textAlign: "center", alignItems: "center", height: 300 }}
+          <div className="contact-card col-md-3 ">
+            <div
+              className="center"
+              style={{
+                width: 100,
+                height: 100,
+                borderRadius: 100,
+                background: "blue",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                margin: "auto",
+              }}
             >
-              <div
-                className="d-flex"
-                style={{
-                  width: 100,
-                  height: 100,
-                  borderRadius: 100,
-                  background: "blue",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <AiOutlineFire
-                  style={{ color: "white", height: 50, width: 50 }}
-                />
-              </div>
-              <h3 style={{ marginTop: 20 }}>Website</h3>
-              <p style={{ color: "#3e64ff", marginTop: 20 }}>yoursite.com</p>
-            </Card>
+              <AiOutlineFire
+                style={{ color: "white", height: 50, width: 50 }}
+              />
+            </div>
+            <h3 style={{ marginTop: 20 }}>address</h3>
+            <p style={{ color: "#999999", marginTop: 20 }}>
+              198 West 21th Street, Suite 721 New York NY 10016
+            </p>
           </div>
         </div>
       </div>
-      <div className="d-flex" style={{ alignItems: "center" }}>
-        <div className="col-md-6">
+      <div className="row ">
+        <div className="col-md-6 text-center ">
           <img
+            className="img-contact"
             src="https://preview.colorlib.com/theme/ronaldo/images/about.jpg"
-            style={{ width: "80%" }}
           />
         </div>
 
-        <form className="col-md-6 d-block" style={{ paddingLeft: 50 }}>
+        <form className="col-md-6 form-contact ">
           <input
             type="text"
             style={{

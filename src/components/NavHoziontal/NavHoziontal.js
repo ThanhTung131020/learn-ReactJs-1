@@ -17,7 +17,7 @@ export default function NavHoziontal() {
 
   return (
     <div className="d-xs-block">
-      <div style={{ marginLeft: 110, marginRight: 110 }} className="row">
+      <div style={{}} className="row">
         <div className="col-md-2">
           <ul className="navHozi  ">
             <li>
