@@ -18,11 +18,9 @@ export default function OurBlog() {
         style={{
           alignItems: "center",
           justifyContent: "space-between",
-          marginLeft: 120,
-          marginRight: 120,
         }}
       >
-        <div className="col-xs-4" style={{ width: 400 }}>
+        <div className="col-md-4">
           <div className="row">
             <img
               src="https://preview.colorlib.com/theme/ronaldo/images/image_1.jpg"
@@ -51,11 +49,11 @@ export default function OurBlog() {
             </p>
           </div>
         </div>
-        <div className="col-xs-4" style={{ width: 400 }}>
+        <div className="col-md-4">
           <div className="row">
             <img
               src="https://preview.colorlib.com/theme/ronaldo/images/image_2.jpg"
-              style={{ height: 300, width: "auto" }}
+              style={{ height: 300 }}
             />
             <a style={{ fontSize: 20 }}>
               Why Lead Generation is Key for Business Growth
@@ -80,7 +78,7 @@ export default function OurBlog() {
             </p>
           </div>
         </div>
-        <div className="col-xs-4" style={{ width: 400 }}>
+        <div className="col-md-4">
           <div className="row">
             <img
               src="https://preview.colorlib.com/theme/ronaldo/images/image_3.jpg"

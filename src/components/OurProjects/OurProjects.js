@@ -16,7 +16,7 @@ export default function OurProjects() {
           </p>
         </div>
         <div className="">
-          <div className="row " style={{ width: "100%" }}>
+          <div className="row " style={{ width: "auto" }}>
             <div
               class="col-md-4 col-sm-4 card-ourprojects "
               style={{
@@ -45,7 +45,7 @@ export default function OurProjects() {
               }}
             ></div>
           </div>
-          <div className="row " style={{ width: "100%" }}>
+          <div className="row " style={{ width: "auto" }}>
             <div
               class="col-md-4 col-sm-4"
               style={{
