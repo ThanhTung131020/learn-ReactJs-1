@@ -18,7 +18,7 @@ const Home = () => {
             <span className="down">&darr;</span>
           </div>
           <div className="container">
-            <div className="branch col-md-4">
+            <div className="branch col-4">
               <div>
                 <a
                   className="d-flex"
@@ -50,7 +50,7 @@ const Home = () => {
                 <li>Contact</li>
               </ul>
             </div> */}
-            <div className="col-md-8">
+            <div className="col-8">
               <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
                   <button
