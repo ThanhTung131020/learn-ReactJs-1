@@ -15,10 +15,10 @@ export default function OurProjects() {
             Vokalia and Consonantia
           </p>
         </div>
-        <div className="card-ourprojects">
-          <div className="row ">
+        <div className="">
+          <div className="row " style={{ width: "100%" }}>
             <div
-              class="col-md-4 col-sm-4"
+              class="col-md-4 col-sm-4 card-ourprojects "
               style={{
                 backgroundImage: `url(${Background_1})`,
                 backgroundSize: "cover",
@@ -45,7 +45,7 @@ export default function OurProjects() {
               }}
             ></div>
           </div>
-          <div className="row " style={{ marginTop: 0 }}>
+          <div className="row " style={{ width: "100%" }}>
             <div
               class="col-md-4 col-sm-4"
               style={{

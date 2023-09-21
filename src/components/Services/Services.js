@@ -22,7 +22,6 @@ export default function Services() {
           className="row card-services-container"
           style={{
             justifyContent: "space-between",
-            marginLeft: 50,
           }}
         >
           <div className="col-md-4">
@@ -32,7 +31,15 @@ export default function Services() {
               />
               <h3>WEB DESIGN</h3>
               <hr style={{ width: 30, marginLeft: "48%" }} />
-              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+              <p
+                style={{
+                  paddingLeft: 20,
+                  paddingRight: 20,
+                  width: "100%",
+                  marginTop: 40,
+                  marginBottom: 40,
+                }}
+              >
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.
               </p>
@@ -45,7 +52,15 @@ export default function Services() {
               />
               <h3>WEB DESIGN</h3>
               <hr style={{ width: 30, marginLeft: "48%" }} />
-              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+              <p
+                style={{
+                  paddingLeft: 20,
+                  paddingRight: 20,
+                  width: "100%",
+                  marginTop: 40,
+                  marginBottom: 40,
+                }}
+              >
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.
               </p>
@@ -56,9 +71,17 @@ export default function Services() {
               <HiOutlineLightBulb
                 style={{ width: 60, height: 60, marginTop: 30 }}
               />
-              <h3>WEB DESIGN</h3>
+              <h3>PHOTOGHAPHY</h3>
               <hr style={{ width: 30, marginLeft: "48%" }} />
-              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+              <p
+                style={{
+                  paddingLeft: 20,
+                  paddingRight: 20,
+                  width: "100%",
+                  marginTop: 40,
+                  marginBottom: 40,
+                }}
+              >
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.
               </p>
@@ -71,7 +94,6 @@ export default function Services() {
           className="row card-services-container"
           style={{
             justifyContent: "space-between",
-            marginLeft: 50,
           }}
         >
           <div className="col-md-4 ">
@@ -79,9 +101,17 @@ export default function Services() {
               <HiOutlineLightBulb
                 style={{ width: 60, height: 60, marginTop: 30 }}
               />
-              <h3>WEB DESIGN</h3>
+              <h3>WEB</h3>
               <hr style={{ width: 30, marginLeft: "48%" }} />
-              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+              <p
+                style={{
+                  paddingLeft: 20,
+                  paddingRight: 20,
+                  width: "100%",
+                  marginTop: 40,
+                  marginBottom: 40,
+                }}
+              >
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.
               </p>
@@ -94,7 +124,15 @@ export default function Services() {
               />
               <h3>WEB DESIGN</h3>
               <hr style={{ width: 30, marginLeft: "48%" }} />
-              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+              <p
+                style={{
+                  paddingLeft: 20,
+                  paddingRight: 20,
+                  width: "100%",
+                  marginTop: 40,
+                  marginBottom: 40,
+                }}
+              >
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.
               </p>
@@ -107,7 +145,16 @@ export default function Services() {
               />
               <h3>WEB DESIGN</h3>
               <hr style={{ width: 30, marginLeft: "48%" }} />
-              <p style={{ width: "100%", marginTop: 40, marginBottom: 40 }}>
+              <p
+                className=""
+                style={{
+                  paddingLeft: 20,
+                  paddingRight: 20,
+                  width: "100%",
+                  marginTop: 40,
+                  marginBottom: 40,
+                }}
+              >
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia.
               </p>

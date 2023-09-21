@@ -9,13 +9,13 @@ export default function Education() {
         <div className="col-xs-9 content">
           <h1>Education</h1>
           <div className="d-flex">
-            <div className="col-xs-1 contain-icon">
+            <div className="col-xs-2 contain-icon">
               <h5>
                 {" "}
                 <TfiGift />{" "}
               </h5>
             </div>
-            <div className="col-xs-11 contain-content">
+            <div className="col-xs-10 contain-content">
               <span className="year-content">2014-2015</span>
               <h2>Bachelor of Science in Computer Science</h2>
               <span>Cambridge University</span>
@@ -26,17 +26,17 @@ export default function Education() {
               </p>
             </div>
           </div>
-          <hr />
+          <hr style={{ width: "80%" }} />
         </div>
         <div className="col-xs-9 content">
           <div className="d-flex">
-            <div className="col-md-1 contain-icon">
+            <div className="col-md-2 contain-icon">
               <h5>
                 {" "}
                 <TfiGift />{" "}
               </h5>
             </div>
-            <div className="col-xs-11 contain-content">
+            <div className="col-xs-10 contain-content">
               <span className="year-content">2014-2015</span>
               <h2>Computer Processing Systems/Computer Software</h2>
               <span>Cambridge University</span>
@@ -47,17 +47,17 @@ export default function Education() {
               </p>
             </div>
           </div>
-          <hr />
+          <hr style={{ width: "80%" }} />
         </div>
         <div className="col-xs-9 content">
           <div className="d-flex">
-            <div className="col-md-1 contain-icon">
+            <div className="col-md-2 contain-icon">
               <h5>
                 {" "}
                 <TfiGift />{" "}
               </h5>
             </div>
-            <div className="col-xs-11 contain-content">
+            <div className="col-xs-10 contain-content">
               <span className="year-content">2014-2015</span>
               <h2>Diploma in Computer</h2>
               <span>Cambridge University</span>
@@ -68,17 +68,17 @@ export default function Education() {
               </p>
             </div>
           </div>
-          <hr />
+          <hr style={{ width: "80%" }} />
         </div>
         <div className="col-xs-9 content">
           <div className="d-flex">
-            <div className="col-md-1 contain-icon">
+            <div className="col-md-2 contain-icon">
               <h5>
                 {" "}
                 <TfiGift />{" "}
               </h5>
             </div>
-            <div className="col-xs-11 contain-content">
+            <div className="col-xs-10 contain-content">
               <span className="year-content">2014-2015</span>
               <h2>Art & Creative Director</h2>
               <span>Cambridge University</span>
@@ -89,7 +89,7 @@ export default function Education() {
               </p>
             </div>
           </div>
-          <hr />
+          <hr style={{ width: "80%" }} />
         </div>
       </div>
     </div>

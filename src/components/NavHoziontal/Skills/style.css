@@ -11,9 +11,8 @@
 .card-skill {
   margin-top: 40px;
   width: auto;
-
   justify-content: center;
-  margin-right: 20px;
+
   align-items: center;
   height: 100%;
   padding-bottom: 20px;
@@ -32,12 +31,14 @@
 .contain-card {
   justify-content: space-evenly;
   align-items: center;
+
   margin-left: auto;
   margin-right: auto;
 }
 
 .contain-progess {
   display: flex;
+  padding-left: 10px;
   justify-content: center;
   align-items: center;
 }

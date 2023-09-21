@@ -127,7 +127,7 @@ export default function Contact() {
           />
         </div>
 
-        <form className="col-md-6 form-contact ">
+        <form className="col-md-6 form-contact text-center">
           <input
             type="text"
             style={{
@@ -169,17 +169,18 @@ export default function Contact() {
             }}
             placeholder="Message"
           />
-          <div style={{ width: "70%", marginTop: 20 }}>
+          <div style={{ width: "70%", marginTop: 20 }} className="text-center">
             <input
               type="submit"
               style={{
                 height: 50,
-                width: 200,
+                width: "auto",
                 backgroundColor: "blue",
                 borderRadius: 20,
                 color: "white",
                 border: "none",
                 fontSize: 12,
+
                 fontWeight: "bold",
               }}
               value="SEND MESSAGE"

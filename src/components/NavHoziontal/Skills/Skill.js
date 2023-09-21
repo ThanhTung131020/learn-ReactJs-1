@@ -5,10 +5,10 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 export default function Skill() {
   return (
     <div id="page3">
-      <div className="" style={{ marginTop: 100 }}>
+      <div className="" style={{ marginTop: 100, paddingLeft: 20 }}>
         <div className="">
           <h1 style={{ color: "blue" }}>Siklls</h1>
-          <div className="row contain-card">
+          <div className="row  contain-card text-center">
             <div class="card-skill col-xs-4">
               <h3>CSS</h3>
               <div class="progress-bar-circle">
