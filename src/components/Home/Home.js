@@ -39,20 +39,10 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            {/* <div className="navBar">
-              <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Resume</li>
-                <li>Services</li>
-                <li>Projects</li>
-                <li>My Blog</li>
-                <li>Contact</li>
-              </ul>
-            </div> */}
+
             <div className="col-8">
               <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid">
+                <div class="container-fluid ">
                   <button
                     class="navbar-toggler"
                     type="button"
