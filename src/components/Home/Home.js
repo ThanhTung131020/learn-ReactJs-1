@@ -42,7 +42,7 @@ const Home = () => {
 
             <div className="col-8">
               <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid ">
+                <div class=" ">
                   <button
                     class="navbar-toggler"
                     type="button"

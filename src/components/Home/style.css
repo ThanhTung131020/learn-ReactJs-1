@@ -1,6 +1,5 @@
 .container {
   display: flex;
-
   height: 100px;
 }
 
@@ -25,24 +24,6 @@
 .nav-item:hover {
   text-decoration-color: blue;
 }
-/* .typingcss::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: white;
-  border-left: 2px solid black;
-  animation: typing 5s steps(20) infinite;
-}
-@keyframes typing {
-  40%,
-  60% {
-    left: calc(100%);
-  }
-  100% {
-    left: 0;
-  }
-} */
 
 .status h1 {
   font-weight: 900;
@@ -93,9 +74,9 @@
   }
 }
 .navbar {
-  padding-left: 100px;
   padding-top: 20px;
   width: 100%;
+  justify-content: flex-end;
 }
 .nav-link {
   font-size: 20px;
